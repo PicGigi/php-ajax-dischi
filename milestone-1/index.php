@@ -1,3 +1,5 @@
+<!-- Mi sono permesso di copiare lo style e il database fatto da Henry per questione di tempo.. l'index lo faccio io, promesso! -->
+
 <?php include __DIR__ . '/db/data.php'; ?>
 
 <!DOCTYPE html>

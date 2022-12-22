@@ -12,6 +12,11 @@ body {
 header {
 	height: 80px;
 	background-color: #06131f;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 1.5rem;
+	padding-left: 1.5rem;
 }
 
 .container {
@@ -20,23 +25,10 @@ header {
 	height: 100%;
 }
 
-#header-container {
-	height: 100%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding-right: 1.5rem;
-	padding-left: 1.5rem;
-}
-
-.header-left img {
-	display: block;
-	height: 40px;
-}
-
-.header-right select {
+header select {
 	height: 40px;
 	padding: 6px;
+	width: 100px;
 }
 
 #discs-container {

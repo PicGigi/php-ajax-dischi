@@ -16,7 +16,23 @@
 		<img src="img/spotify-logo.png" alt="">
 	</header>
 	<main>
-		
+		<div class="container">
+			<div id="discs-container">
+
+				<?php foreach ($arr_discs as $disc) { ?> <!-- foreach php per i dischi -->
+
+					<div class="disc"> <!-- disco -->
+						<img src="<?= $disc['poster'] ?>" alt="">
+						<h3><?= $disc['title'] ?></h3>
+						<span><?= $disc['author'] ?></span>
+						<span><?= $disc['year'] ?></span>
+					</div>
+
+				<?php
+				} ?>
+				
+			</div>
+		</div>
 	</main>
 </body>
 </html>
